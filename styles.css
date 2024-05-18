@@ -2,6 +2,9 @@
     max-width: 360px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .block-card{
@@ -30,3 +33,20 @@
     font-size: 1.25rem;
 }
 
+@media screen and (min-width: 576px){
+    .blog-cards-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 720px;
+    }
+
+    .block-card{
+        width: calc((100% - 10px - 4px)/2);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .block-card{
+        width: calc((100% - 20px - 6px)/3);
+    }
+}
