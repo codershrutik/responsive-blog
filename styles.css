@@ -12,6 +12,11 @@
     border-radius: 4px;
 }
 
+.block-card:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 #fafafa;
+}
+
 .block-card-image>img{
     object-fit: cover;
     width: 100%;
@@ -48,5 +53,9 @@
 @media screen and (min-width: 992px) {
     .block-card{
         width: calc((100% - 20px - 6px)/3);
+    }
+
+    .blog-cards-wrapper{
+        max-width: 960px;
     }
 }
