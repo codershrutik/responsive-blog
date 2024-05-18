@@ -1,3 +1,9 @@
+.blog-cards-wrapper{
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .block-card{
     border: 1px solid #cccccc;
     border-radius: 4px;
